@@ -9,12 +9,32 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@chakra-ui/react": "^2.2.4",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "axios": "^0.27.2",
+    "ethers": "^5.6.9",
+    "framer-motion": "^6.5.1",
+    "interweave": "^13.0.0",
+    "ipfs-http-client": "^57.0.3",
+    "js-cookie": "^3.0.1",
+    "jwt-decode": "^3.1.2",
+    "lit-js-sdk": "^1.1.198",
     "next": "12.2.2",
+    "omit-deep": "^0.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.3.0",
+    "react-icons": "^4.4.0",
+    "uuid": "^8.3.2",
+    "wagmi": "^0.5.9"
   },
   "devDependencies": {
+    "@types/react": "^18.0.15",
+    "autoprefixer": "^10.4.7",
     "eslint": "8.20.0",
-    "eslint-config-next": "12.2.2"
+    "eslint-config-next": "12.2.2",
+    "postcss": "^8.4.14"
   }
 }

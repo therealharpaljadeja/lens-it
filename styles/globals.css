@@ -1,16 +1,64 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none; /* Firefox */
+}
+
+.pattern-bg {
+    background: radial-gradient(
+            circle at top,
+            transparent 14%,
+            #ee46bc 15%,
+            #ee46bc 19%,
+            transparent 20%
+        ),
+        radial-gradient(
+            circle at bottom,
+            transparent 14%,
+            #ee46bc 15%,
+            #ee46bc 19%,
+            transparent 20%
+        ),
+        radial-gradient(
+            circle at right,
+            transparent 14%,
+            #ee46bc 15%,
+            #ee46bc 19%,
+            transparent 20%
+        ),
+        radial-gradient(
+            circle at left,
+            transparent 14%,
+            #ee46bc 15%,
+            #ee46bc 19%,
+            transparent 20%
+        ),
+        radial-gradient(circle at center, #ee46bc 25%, transparent 26%),
+        radial-gradient(circle at bottom left, #ee46bc 12%, transparent 13%),
+        radial-gradient(circle at bottom right, #ee46bc 12%, transparent 13%),
+        radial-gradient(circle at top left, #ee46bc 12%, transparent 13%),
+        radial-gradient(circle at top right, #ee46bc 12%, transparent 13%);
+    background-size: 3em 3em;
+    background-color: #ffffff;
+    opacity: 1;
 }
